@@ -1,0 +1,28 @@
+{
+  "name": "brendon-pillay-282-node-sql-assignment-javascript",
+  "version": "1.0.0",
+  "description": "Node & SQL assignment (282) For raw project instructions see: http://syllabus.africacode.net/projects/nodejs/sql/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "SQL",
+    "javascript",
+    "jasmine",
+    "unit-tesing"
+  ],
+  "author": "Brendon Pillay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
